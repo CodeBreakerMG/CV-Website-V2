@@ -1,0 +1,26 @@
+:root {   /*Global scope  for CSS Variables, anything defined here can be used anywhere i the CSS*/
+
+    /*Ocean Pallete Colours*/
+    --c-navy : #03045e;  /*Custom Property: Dark Navy Colour*/
+    --c-blue : #0077b6;  /*Custom Property: Medium Blue Colour*/
+    --c-cyan : #00b4d8;  /*Custom Property: Bright Cyan Colour*/
+    --c-light: #90e0ef;  /*Custom Property: Light Blue Colour*/
+    --c-ice  : #caf0f8;  /*Custom Property: Very Light Blue Colour*/
+
+    --bg:    var(--c-ice);    /* background colour using the defined --c-ice*/
+    --card:  #ffffff;       /*Text color color - Black */
+    --text:  #0b1320;         /*Card background color - White */
+    --muted: #3b4a63;       /*Muted text or secondary color - grayish*/
+}
+
+/* You can use them lates as::after
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+button {
+  background-color: var(--c-blue);
+  color: var(--card);
+}
+*/
