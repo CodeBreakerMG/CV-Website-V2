@@ -15,6 +15,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TopBar from "./TopBar";
+import LeftSideProfile from "./LeftSideProfile";
 
 const drawerWidth = 320;
 
@@ -32,9 +33,8 @@ export default function Layout() {
   return (
     <Box sx={{ display: "flex", minHeight: "100vh" }}>
       {/* Top bar */}
-      <TopBar>
-        
-      </TopBar>
+      <TopBar/>
+      <LeftSideProfile/>
     </Box>
   );
 }

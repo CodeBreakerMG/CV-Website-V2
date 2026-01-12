@@ -4,7 +4,7 @@ export const site = {
         firstName: "Manuel",
         lastName: "Moran",
         fullName: "Manuel G. Moran",
-        email: "manue@tamu.edu",
+        email: "manuel.g.moran@outlook.com",
         photo: "/profile.jpg", // put file in /public
         address: {
             addressLine1: "1000 Timm Drive",
