@@ -1,18 +1,19 @@
-import { Typography, Stack, Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
-import TopBar from "../components/TopBar";
+
+import { Box } from "@mui/material";
+import LeftSideProfile from "../components/LeftSideProfile";
+import RightSideHomePanel from "../components/RightSideHomePanel";
 
 export default function Home() {
-  const navigate = useNavigate();
-
-  return(
-    <TopBar>
-      
-    </TopBar>
+  return (
+    <Box sx={{ display: "flex", minHeight: "calc(100vh - 72px)" }}>
+      <LeftSideProfile />
+      <RightSideHomePanel />
+    </Box>
   );
-
-
 }
+
+
+
 /*
   return (
     <Stack spacing={2}>

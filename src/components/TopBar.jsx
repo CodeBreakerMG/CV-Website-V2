@@ -19,7 +19,7 @@ export default function TopBar() {
     const location = useLocation();
     return (
         <AppBar 
-            position="fixed" elevation={0}         
+            position="fixed" elevation={1}         
             sx={{
                 zIndex: (t) => t.zIndex.drawer + 1,
                 background: "linear-gradient(90deg, #03045E, #0077B6)",

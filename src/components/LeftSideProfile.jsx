@@ -18,6 +18,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { site } from "../config/site";
 
 export default function LeftSideProfile() {
+  const navigate = useNavigate();
   return (
     <Drawer
       variant="permanent"
@@ -76,7 +77,7 @@ export default function LeftSideProfile() {
               <IconButton  href={site.links.github} target="_blank" color="primary" size="large">
                 <GitHubIcon />
               </IconButton>
-              <IconButton  href={site.person.email} target="_blank" color="primary" size="large">
+              <IconButton onClick={() => navigate("/contact")} color="primary" size="large">
                 <EmailIcon />
               </IconButton>
             </Stack>

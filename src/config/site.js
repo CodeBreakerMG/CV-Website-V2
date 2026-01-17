@@ -18,9 +18,9 @@ export const site = {
     skills: ["Python", "SQL", "React", "FastAPI"],
 
     links: {
-        linkedin: "https://www.linkedin.com/in/YOUR_LINK_HERE",
-        github: "https://github.com/YOUR_USERNAME",
-        resumePdf: "/resume.pdf", // optional, put in /public
+        linkedin: "https://www.linkedin.com/in/mm9451/",
+        github: "https://github.com/CodeBreakerMG",
+        resumePdf: "/manuel_moran_resume.pdf", // optional, put in /public
     },
     
 
