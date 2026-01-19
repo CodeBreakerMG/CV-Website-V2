@@ -1,5 +1,6 @@
 // src/pages/Projects.jsx
 import { Box, Typography, Card, CardContent, Chip, Stack, Button } from "@mui/material";
+import { useEffect } from "react";
 
 const projects = [
   {
@@ -23,6 +24,9 @@ const projects = [
 ];
 
 export default function Projects() {
+    useEffect(() => {       /*To change the name on the tab */
+    document.title = "Manuel G. Moran | Projects";
+  }, []);
   return (
     <Box>
       <Typography variant="h4" sx={{ fontWeight: 800, mb: 2 }}>

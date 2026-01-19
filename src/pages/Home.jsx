@@ -1,9 +1,16 @@
 
+import { useEffect } from "react";
 import { Box } from "@mui/material";
 import LeftSideProfile from "../components/LeftSideProfile";
 import RightSideHomePanel from "../components/RightSideHomePanel";
 
+
 export default function Home() {
+  
+  useEffect(() => {       /*To change the name on the tab */
+    document.title = "Manuel G. Moran | Home";
+  }, []);
+
   return (
     <Box sx={{ display: "flex", minHeight: "calc(100vh - 72px)" }}>
       <LeftSideProfile />

@@ -9,11 +9,21 @@ import {
   TextField,
   Divider,
 } from "@mui/material";
+import { useEffect } from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { site } from "../config/site";
+
+
+const GET_IN_TOUCH_PADDING = 25;
 
 export default function Contact() {
+
+    useEffect(() => {       /*To change the name on the tab */
+      document.title = "Manuel G. Moran | Contact";
+    }, []);
+
   return (
     <Box
       sx={{
@@ -30,7 +40,7 @@ export default function Contact() {
       <Typography sx={{ opacity: 0.8, mb: 3 }}>
         Feel free to reach out for collaboration, research, or full-time
         opportunities.
-      </Typography>
+      </Typography> 
 
       <Stack spacing={3}>
         {/* Direct contact card */}
@@ -41,33 +51,42 @@ export default function Contact() {
             </Typography>
 
             <Stack spacing={2}>
-              <Button
-                startIcon={<EmailIcon />}
-                href="mailto:manuelgmoran@gmail.com"
-                variant="contained"
-              >
-                manuelgmoran@gmail.com
-              </Button>
+          
+              <Box sx={{px: GET_IN_TOUCH_PADDING, display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%'}}>
+                <Stack direction="row" alignItems="center" spacing={1}>
+                  <EmailIcon />
+                  <Typography variant="h6" sx={{fontSize: '18px'}}  >
+                    EMAIL :
+                  </Typography>
+                </Stack>
+                <Typography variant="h6" sx={{fontSize: '18px'}}  >
+                  {site.person.email}
+                </Typography>
+              </Box>
 
-              <Button
-                startIcon={<LinkedInIcon />}
-                href="https://www.linkedin.com/in/manuelgmoran/"
-                target="_blank"
-                rel="noreferrer"
-                variant="outlined"
-              >
-                LinkedIn Profile
-              </Button>
+              <Box sx={{px: GET_IN_TOUCH_PADDING, display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%'}}>
+                <Stack direction="row" alignItems="center" spacing={1}>
+                  <LinkedInIcon />
+                  <Typography variant="h6" sx={{fontSize: '18px'}}  >
+                    LINKEDIN :
+                  </Typography>
+                </Stack>
+                <Typography  variant="h6" sx={{fontSize: '18px', color: 'blue', textDecoration: 'underline'}}  >
+                  <a href={site.links.linkedin} target="_blank">{site.links.linkedin}</a>
+                </Typography>
+              </Box>
 
-              <Button
-                startIcon={<GitHubIcon />}
-                href="https://github.com/manuelgmoran"
-                target="_blank"
-                rel="noreferrer"
-                variant="outlined"
-              >
-                GitHub
-              </Button>
+              <Box sx={{px: GET_IN_TOUCH_PADDING, display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%'}}>
+                <Stack direction="row" alignItems="center" spacing={1}>
+                  <GitHubIcon />
+                  <Typography variant="h6" sx={{fontSize: '18px'}}  >
+                    GITHUB :
+                  </Typography>
+                </Stack>
+                <Typography  variant="h6" sx={{fontSize: '18px', color: 'blue', textDecoration: 'underline'}}  >
+                  <a  href="www.google.com" target="_blank">{site.links.github}</a>
+                </Typography>
+              </Box>
             </Stack>
           </CardContent>
         </Card>

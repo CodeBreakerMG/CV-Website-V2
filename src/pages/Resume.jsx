@@ -1,7 +1,11 @@
 // src/pages/Resume.jsx
 import { Box, Typography, Card, CardContent, Stack, Button, Divider, Chip } from "@mui/material";
+import { useEffect } from "react";
 
 export default function Resume() {
+    useEffect(() => {       /*To change the name on the tab */
+    document.title = "Manuel G. Moran | Resume";
+  }, []);
   return (
     <Box>
       <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" alignItems={{ xs: "flex-start", sm: "center" }} spacing={2} sx={{ mb: 2 }}>
