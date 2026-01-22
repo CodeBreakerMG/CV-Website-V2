@@ -63,10 +63,10 @@ export default function LeftSideProfile() {
                 {site.person.fullName}
               </Typography>
               <Typography variant="h6" sx={{ fontWeight: 700, color: "rgba(3,4,94,0.70)" }}>
-                Data Analytics • Data Engineering
+                Data Engineer • BI & Analytics Specialist
               </Typography>
               <Typography sx={{ fontWeight: 600, color: "rgba(3,4,94,0.60)", mt: 0.5 }}>
-                M.S. Computer Science @ Texas A&amp;M
+                M.S. Computer Engineering @ Texas A&M | Expected May 2026
               </Typography>
             </Box>
               <Divider sx={{ mt: 2}} />
@@ -90,7 +90,7 @@ export default function LeftSideProfile() {
               </Typography>
               <br/>
               <Typography variant="h5" sx={{ fontWeight: 300, color: "rgba(3,4,94,0.70)" }}>
-                I am Manny, a Computer Scientist currently finalizing my Master's in Computer Science at Texas A&M. I am interested in AI, Deep learning and Data Analaytics. 
+                I am a Data Engineer specializing in building scalable data pipelines and AI-driven analytics. Currently, I am leading web-app prototype deployments on Microsoft Azure for the Texas A&M Read Center to bridge the gap between industrial distribution and AI.
               </Typography>
 
             </Box>

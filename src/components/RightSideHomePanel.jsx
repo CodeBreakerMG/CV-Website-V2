@@ -24,22 +24,22 @@ export default function RightSideHomePanel() {
       <Card variant="outlined">
         <CardContent>
           <Typography variant="h6" sx={{ mb: 1 }}>
-            Right Now
+            Current Focus
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            AI Researcher at the Read Center (Texas A&M), working with distributor companies to bring AI from concept to implementation. My tasks include:
+            AI Researcher at the Texas A&M Read Center, deploying industrial AI from concept to production. 
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            📊 Partner with distribution companies to identify high-impact AI use cases
+            📊 Collaborating with industrial distributors to identify and execute high-impact AI and automation use cases.
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            ⚡ Assess where AI can add value
+            ⚡ Conducting technical assessments to quantify ROI for AI-driven operational improvements.
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            🧠 Support AI adoption strategy and literacy
+            🧠 Driving AI adoption strategies and literacy for consortium partners
           </Typography>
             <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            ⚙️ Develop working AI prototypes (process automation, dashboards, ETLs)
+            ⚙️ Developing and deploying production-ready AI prototypes, including automated ETL pipelines and BI dashboards hosted on Microsoft Azure.
           </Typography>
 
 
@@ -60,16 +60,16 @@ export default function RightSideHomePanel() {
             Experience at a Glance
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🎓 AI Researcher supporting 4 distributor companies through <a href="https://www.readcenter.com/ai4id/">AI4ID</a>, an AI-focused industrial distribution consortium led by Texas A&M
+            🎓 <strong>Industrial AI:</strong> Leading research and implementation for 4 major distributor companies through the <u><a href="https://readcenter.tamu.edu/ai4id/">AI4ID Consortium</a></u>, an AI-focused industrial distribution consortium led by Texas A&M
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🏦 Data Engineer in banking supporting $400M+ in annual revenue  <a href="https://credicorp.gcs-web.com/about">(Credicorp Group)</a>
+            🏦 <strong> Financial Data Engineering:</strong>  Engineered data infrastructure at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u> supporting a $400M+ annual revenue stream. 
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            📊 Built ETL pipelines cutting processing time by 50%  <a href="https://credicorp.gcs-web.com/about">(Credicorp Group)</a>
+            📊 <strong> Efficiency Optimization:</strong>  Architected ETL pipelines that reduced data processing latency by 50% at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u>
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🧩 Migrated enterprise workflows to Azure Databricks (−80% query time)
+            🧩 <strong> Cloud Modernization:</strong>  Migrated legacy enterprise workflows to Azure Databricks, resulting in an 80% improvement in query performance.
           </Typography>
 
 
