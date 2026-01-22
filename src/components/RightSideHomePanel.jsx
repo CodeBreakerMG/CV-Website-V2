@@ -60,7 +60,7 @@ export default function RightSideHomePanel() {
             Experience at a Glance
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🎓 AI Researcher supporting 4 distributor companies through <a href="https://www.readcenter.com/ai4id/">AI4ID</a>
+            🎓 AI Researcher supporting 4 distributor companies through <a href="https://www.readcenter.com/ai4id/">AI4ID</a>, an AI-focused industrial distribution consortium led by Texas A&M
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
             🏦 Data Engineer in banking supporting $400M+ in annual revenue  <a href="https://credicorp.gcs-web.com/about">(Credicorp Group)</a>
