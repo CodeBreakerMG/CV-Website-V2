@@ -14,7 +14,7 @@ export default function App(){
 
                  
           <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Resume />} />
+          <Route path="/resume" element={<Resume />} />
          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" replace />} /> 
       

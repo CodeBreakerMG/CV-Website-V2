@@ -71,10 +71,12 @@ export default function LeftSideProfile() {
             </Box>
               <Divider sx={{ mt: 2}} />
             <Stack direction="row" spacing={1} justifyContent="center" flexWrap="wrap" sx={{ mt: 2}}>
-              <IconButton   href={site.links.linkedin} target="_blank" color="primary" size="18px">
-                <LinkedInIcon  />
-              </IconButton>
-              <IconButton  href={site.links.github} target="_blank" color="primary" size="large">
+            <IconButton  component="a" href={site.links.linkedinURL} target="_blank" color="primary" size="large">
+
+              <LinkedInIcon />
+            </IconButton>
+
+              <IconButton  component="a" href={site.links.githubURL} target="_blank" color="primary" size="large">
                 <GitHubIcon />
               </IconButton>
               <IconButton onClick={() => navigate("/contact")} color="primary" size="large">

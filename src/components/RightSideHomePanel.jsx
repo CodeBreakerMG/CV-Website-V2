@@ -6,6 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 
 const contactPage = "/contact"
+const resumePage = "/resume"
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -89,13 +90,13 @@ export default function RightSideHomePanel() {
             <Box sx={{ display: "flex", gap: 2, justifyContent: "Center"  }}>
                 <Button  
                     component="a"
-                    href="/manuel_moran_resume.pdf"
+                    onClick={() => navigate(resumePage)}
                     target="_blank"
                     rel="noopener noreferrer"
                     variant="contained" 
-                    sx={{ ml: 25, mr: 0.5, flex: 1, minWidth: 140 }} >
+                    sx={{ ml: 15, mr: 0.5, flex: 1, minWidth: 140 }} >
                 View Resume</Button>
-                <Button variant="outlined" onClick={() => navigate(contactPage)}  sx={{ ml: 0.5, mr: 25, flex: 1, minWidth: 140}} >Contact Information</Button>
+                <Button variant="outlined" onClick={() => navigate(contactPage)}  sx={{ ml: 0.5, mr: 15, flex: 1, minWidth: 140}} >Contact Information</Button>
             </Box>
 
 

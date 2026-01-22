@@ -19,7 +19,9 @@ export const site = {
 
     links: {
         linkedin: "linkedin.com/in/mm9451/",
+        linkedinURL:"https://www.linkedin.com/in/mm9451/",
         github: "github.com/CodeBreakerMG/",
+        githubURL: "https://www.github.com/CodeBreakerMG/",
         website: "https://manuelgmoran.com",
         resumePdf: "/manuel_moran_resume.pdf", // optional, put in /public
     },

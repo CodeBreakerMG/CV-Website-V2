@@ -72,7 +72,7 @@ export default function Contact() {
                   </Typography>
                 </Stack>
                 <Typography  variant="h6" sx={{fontSize: '18px', color: 'blue', textDecoration: 'underline'}}  >
-                  <a href={site.links.linkedin} target="_blank">{site.links.linkedin}</a>
+                  <a  href={site.links.linkedinURL}  target="_blank">{site.links.linkedin}</a>
                 </Typography>
               </Box>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                   </Typography>
                 </Stack>
                 <Typography  variant="h6" sx={{fontSize: '18px', color: 'blue', textDecoration: 'underline'}}  >
-                  <a  href="www.google.com" target="_blank">{site.links.github}</a>
+                  <a  href={site.links.githubURL} target="_blank">{site.links.github}</a>
                 </Typography>
               </Box>
             </Stack>

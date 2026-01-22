@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { Box } from "@mui/material";
 import TopBar from "./TopBar";
 
-const TOPBAR_HEIGHT = 72; // adjust to your AppBar height
+export const TOPBAR_HEIGHT = 72; // adjust to your AppBar height
 
 export default function Layout() {
   return (
@@ -14,7 +14,7 @@ export default function Layout() {
       {/* Routed page content */}
       <Box
         component="main"
-        sx={{
+        sx={{ flex: 1, 
           pt: `${TOPBAR_HEIGHT}px`,
           minHeight: `calc(100vh - ${TOPBAR_HEIGHT}px)`,
         }}
