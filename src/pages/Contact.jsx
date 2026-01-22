@@ -9,7 +9,7 @@ import {
   TextField,
   Divider,
 } from "@mui/material";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -23,6 +23,44 @@ export default function Contact() {
     useEffect(() => {       /*To change the name on the tab */
       document.title = "Manuel G. Moran | Contact";
     }, []);
+
+    const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState({ type: "", msg: "" });
+
+  const onChange = (key) => (e) => {
+    setForm((p) => ({ ...p, [key]: e.target.value }));
+  };
+
+  const handleSubmit = async () => {
+    setStatus({ type: "", msg: "" });
+
+    // basic validation
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      setStatus({ type: "error", msg: "Please fill out all fields." });
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data?.error || "Failed to send message.");
+
+      setStatus({ type: "success", msg: "Message sent! I’ll get back to you soon." });
+      setForm({ name: "", email: "", message: "" });
+    } catch (err) {
+      setStatus({ type: "error", msg: err.message || "Something went wrong." });
+    } finally {
+      setLoading(false);
+    }
+  };
+
 
   return (
     <Box
@@ -98,44 +136,62 @@ export default function Contact() {
               Send a message
             </Typography>
 
-            <Stack spacing={2}>
-              <TextField
-                label="Name"
-                fullWidth
-                variant="outlined"
-              />
+         <Stack spacing={2}>
+            <TextField
+              label="Name"
+              fullWidth
+              variant="outlined"
+              value={form.name}
+              onChange={onChange("name")}
+            />
 
-              <TextField
-                label="Email"
-                fullWidth
-                variant="outlined"
-              />
+            <TextField
+              label="Email"
+              fullWidth
+              variant="outlined"
+              value={form.email}
+              onChange={onChange("email")}
+            />
 
-              <TextField
-                label="Message"
-                fullWidth
-                multiline
-                minRows={4}
-                variant="outlined"
-              />
+            <TextField
+              label="Message"
+              fullWidth
+              multiline
+              minRows={4}
+              variant="outlined"
+              value={form.message}
+              onChange={onChange("message")}
+            />
 
               <Divider />
 
               <Button
                 variant="contained"
                 size="large"
-                disabled
+                onClick={handleSubmit}
+                disabled={loading}
               >
-                Send Message (coming soon)
+                {loading ? "Sending..." : "Send Message"}
               </Button>
 
+              {status.msg && (
+                <Typography
+                  variant="caption"
+                  sx={{ opacity: 0.9, color: status.type === "error" ? "error.main" : "success.main" }}
+                >
+                  {status.msg}
+                </Typography>
+              )}
+
               <Typography variant="caption" sx={{ opacity: 0.6 }}>
-                This form is currently frontend-only. Please contact me directly
-                via email or LinkedIn.
+                Or email me directly at {site.person.email}.
               </Typography>
             </Stack>
           </CardContent>
         </Card>
+
+
+
       </Stack>
     </Box>
   );
