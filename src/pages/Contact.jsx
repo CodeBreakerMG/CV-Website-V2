@@ -24,7 +24,7 @@ export default function Contact() {
       document.title = "Manuel G. Moran | Contact";
     }, []);
 
-    const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState({ type: "", msg: "" });
 

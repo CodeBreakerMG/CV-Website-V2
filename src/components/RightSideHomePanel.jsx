@@ -99,8 +99,6 @@ export default function RightSideHomePanel() {
                 View Resume</Button>
                 <Button variant="outlined" onClick={() => navigate(contactPage)}  sx={{ ml: 0.5, mr: 15, flex: 1, minWidth: 140}} >Contact Information</Button>
             </Box>
-
-
         </CardContent>
       </Card>
 
