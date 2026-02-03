@@ -39,7 +39,7 @@ export default function RightSideHomePanel() {
             🧠 Driving AI adoption strategies and literacy for consortium partners
           </Typography>
             <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            ⚙️ Developing and deploying production-ready AI prototypes, including automated ETL pipelines and BI dashboards hosted on Microsoft Azure.
+            ⚙️ Developing and deploying production-ready AI prototypes, including automated ETL pipelines solutions hosted on Microsoft Azure.
           </Typography>
 
 
