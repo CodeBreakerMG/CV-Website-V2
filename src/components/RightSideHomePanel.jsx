@@ -83,7 +83,7 @@ export default function RightSideHomePanel() {
             Let's Connect
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            I am currently finalizing my Master's and available for full-time roles. I am based in Texas but am open to opportunities nationwide.          
+            I am currently finalizing my Master's and available for full-time roles. I am based in Texas but open to opportunities nationwide.          
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.secondary" }}>
             📍 Willing to Relocate
