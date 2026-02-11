@@ -27,7 +27,7 @@ export default function RightSideHomePanel() {
             Current Focus
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            AI Researcher at the Texas A&M Advanced Distribution Research Center (READ Center) deploying industrial AI solutions from concept to production. 
+            AI Researcher at the <u><a href="https://readcenter.tamu.edu/">Texas A&M Advanced Distribution Research Center (READ Center)</a></u> deploying industrial AI solutions from concept to production. 
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
             📊 Collaborating with industrial distributors to identify, develop and execute high-impact AI solutions and automation use cases.
@@ -63,10 +63,10 @@ export default function RightSideHomePanel() {
             🎓 <strong>Industrial AI:</strong> Leading research and implementation for 4 major distributor companies through the <u><a href="https://readcenter.tamu.edu/ai4id/">AI4ID Consortium</a></u>, an AI-focused industrial distribution consortium led by Texas A&M
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🏦 <strong> Financial Data Engineering:</strong>  Engineered data infrastructure at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u> supporting a $400M+ annual revenue stream. 
+            🏦 <strong> Financial Data Engineering:</strong>  Engineered data infrastructure at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Financial Group</a></u> supporting a $400M+ annual revenue stream. 
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            📊 <strong> Efficiency & Optimization:</strong>  Architected ETL pipelines that reduced data processing latency by 50% at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u>
+            📊 <strong> Efficiency & Optimization:</strong>  Architected ETL pipelines that reduced data processing latency by 50% at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Financial Group</a></u>
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
             🧩 <strong> Cloud Modernization:</strong>  Migrated legacy enterprise workflows to Azure Databricks, resulting in 80% improvement in query performance.
