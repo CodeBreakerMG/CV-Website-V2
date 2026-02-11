@@ -27,7 +27,7 @@ export default function RightSideHomePanel() {
             Current Focus
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            AI Researcher at the Texas A&M Read Center, deploying industrial AI from concept to production. 
+            AI Researcher at the Texas A&M Advanced Distribution Research Center (READ Center) deploying industrial AI solutions from concept to production. 
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
             📊 Collaborating with industrial distributors to identify and execute high-impact AI and automation use cases.
