@@ -66,7 +66,7 @@ export default function LeftSideProfile() {
                 Data Engineer • BI & Analytics Specialist
               </Typography>
               <Typography sx={{ fontWeight: 600, color: "rgba(3,4,94,0.60)", mt: 0.5 }}>
-                M.S. Computer Engineering @ Texas A&M | Expected May 2026
+                M.S. Computer Science @ Texas A&M | Expected May 2026
               </Typography>
             </Box>
               <Divider sx={{ mt: 2}} />
