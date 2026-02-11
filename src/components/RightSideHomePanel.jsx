@@ -30,13 +30,13 @@ export default function RightSideHomePanel() {
             AI Researcher at the Texas A&M Advanced Distribution Research Center (READ Center) deploying industrial AI solutions from concept to production. 
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            📊 Collaborating with industrial distributors to identify and execute high-impact AI and automation use cases.
+            📊 Collaborating with industrial distributors to identify, develop and execute high-impact AI solutions and automation use cases.
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
             ⚡ Conducting technical assessments to quantify ROI for AI-driven operational improvements.
           </Typography>
           <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
-            🧠 Driving AI adoption strategies and literacy for consortium partners
+            🧠 Driving AI adoption strategies and literacy for consortium partners.
           </Typography>
             <Typography variant="body2" sx={{ pl: 2, mb: 1.5, color: "text.secondary" }}>
             ⚙️ Developing and deploying production-ready AI prototypes, including automated ETL pipelines solutions hosted on Microsoft Azure.
@@ -66,10 +66,10 @@ export default function RightSideHomePanel() {
             🏦 <strong> Financial Data Engineering:</strong>  Engineered data infrastructure at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u> supporting a $400M+ annual revenue stream. 
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            📊 <strong> Efficiency Optimization:</strong>  Architected ETL pipelines that reduced data processing latency by 50% at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u>
+            📊 <strong> Efficiency & Optimization:</strong>  Architected ETL pipelines that reduced data processing latency by 50% at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Group</a></u>
           </Typography>
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🧩 <strong> Cloud Modernization:</strong>  Migrated legacy enterprise workflows to Azure Databricks, resulting in an 80% improvement in query performance.
+            🧩 <strong> Cloud Modernization:</strong>  Migrated legacy enterprise workflows to Azure Databricks, resulting in 80% improvement in query performance.
           </Typography>
 
 
