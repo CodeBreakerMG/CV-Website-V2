@@ -54,25 +54,27 @@ export default function RightSideHomePanel() {
         </CardContent>
       </Card>
       {/* Card 2: Experience at a Glance */}
-      <Card variant="outlined">
+     <Card variant="outlined">
         <CardContent>
           <Typography variant="h6" sx={{ mb: 1 }}>
             Experience at a Glance
           </Typography>
+          
           <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🎓 <strong>Industrial AI:</strong> Leading research and implementation for 4 major distributor companies through the <u><a href="https://readcenter.tamu.edu/ai4id/">AI4ID Consortium</a></u>, an AI-focused industrial distribution consortium led by Texas A&M
-          </Typography>
-          <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🏦 <strong> Financial Data Engineering:</strong>  Engineered data infrastructure at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Financial Group</a></u> supporting a $400M+ annual revenue stream. 
-          </Typography>
-          <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            📊 <strong> Efficiency & Optimization:</strong>  Architected ETL pipelines that reduced data processing latency by 50% at <u><a href="https://credicorp.gcs-web.com/about">Credicorp Financial Group</a></u>
-          </Typography>
-          <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
-            🧩 <strong> Cloud Modernization:</strong>  Migrated legacy enterprise workflows to Azure Databricks, resulting in 80% improvement in query performance.
+            🎓 <strong>Industrial AI:</strong> Leading research and implementation for 4 major distributor companies through the <u><a href="https://readcenter.tamu.edu/ai4id/" target="_blank" rel="noopener">AI4ID Consortium</a></u>, an AI-focused industrial distribution consortium led by Texas A&M
           </Typography>
 
+          <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
+            🏦 <strong>Financial Data Engineering:</strong> Engineered data infrastructure at <strong>Credit Bank of Peru (BCP)</strong>, a <u><a href="https://credicorp.gcs-web.com/about" target="_blank" rel="noopener">Credicorp Financial Group</a></u> subsidiary, supporting a $400M+ annual revenue stream.
+          </Typography>
 
+          <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
+              📊 <strong>Efficiency & Optimization:</strong> Architected ETL pipelines that reduced data processing latency by 50% at   <u><a href="https://credicorp.gcs-web.com/about" target="_blank" rel="noopener">Credit Bank of Peru (BCP)</a></u> 
+          
+          </Typography>
+          <Typography variant="body2" sx={{ mb: 1.5, color: "text.primary" }}>
+            🧩 <strong>Cloud Modernization:</strong> Migrated legacy on-premise infrastructure to <strong>Azure Databricks</strong>, resulting in an 80% improvement in query performance.
+          </Typography>
         </CardContent>
       </Card>
 

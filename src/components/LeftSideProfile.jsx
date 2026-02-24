@@ -90,7 +90,7 @@ export default function LeftSideProfile() {
               </Typography>
               <br/>
               <Typography variant="h5" sx={{ fontWeight: 300, color: "rgba(3,4,94,0.70)" }}>
-                I am a Data Engineer specializing in building scalable data pipelines and AI-driven analytics. Currently, I am leading web-app prototype deployments on Microsoft Azure for the <u><a href="https://readcenter.tamu.edu/">Texas A&M Advanced Distribution Research Center (READ Center)</a></u> to bridge the gap between industrial distribution and AI.
+                I am a Data Engineer and BI & Analytics Specialist specializing in building scalable data pipelines and AI-driven analytics. Currently, I am leading web-app prototype deployments on Microsoft Azure for the <u><a href="https://readcenter.tamu.edu/">Texas A&M Advanced Distribution Research Center (READ Center)</a></u> to bridge the gap between industrial distribution and AI.
               </Typography>
 
             </Box>
